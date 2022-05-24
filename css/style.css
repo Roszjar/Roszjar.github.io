@@ -1,0 +1,97 @@
+html {
+    background-image: url(../img/5.jpg);
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h1 {
+    background-color: rgba(222, 184, 135, 0.7);
+    padding: 5px 5px;
+    border: 1px solid darkcyan;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: darkcyan;
+    text-shadow: 2px 2px 4px #FFFFFF;
+}
+
+.menu {
+    overflow: hidden;
+    padding: 10px;
+    border: 1px solid darkcyan;
+    border-radius: 10px;
+    background-color: rgba(222, 184, 135, 0.7);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.menu a {
+    float: left;
+    color: darkcyan;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    padding: 5px 32px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: rgba(222, 184, 135, 1);
+    font-style: italic;
+}
+
+.menu a.active {
+    background-color: rgba(222, 184, 135, 1);
+    font-weight: bold;
+}
+
+.ntak {
+    overflow: hidden;
+    padding: 10px;
+    border: 1px solid darkcyan;
+    border-radius: 10px;
+    background-color: rgba(222, 184, 135, 0.7);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: darkcyan;
+}
+
+img {
+    width: 40%;
+    margin: 20px;
+    border: 1px solid darkcyan;
+}
+
+img:hover {
+    width: 50%;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+h3.contact {
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: darkcyan;
+}
+
+h3 a {
+    color: darkcyan;
+}
+
+p {
+    color: darkcyan;
+}
