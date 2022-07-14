@@ -13,7 +13,7 @@ html {
     overflow: auto;
     position: fixed;
     top: 0px;
-    width: 99%;
+    width: 100%;
 }
 
 .topnav a {
@@ -27,17 +27,7 @@ html {
     width: 20%;
 }
 
-@media screen and (max-width: 500px) {
-    .topnav {
-        position: absolute;
-    }
 
-    .topnav a {
-        float: none;
-        display: block;
-        width: 100%;
-    }
-}
 
 .topnav a:hover {
     background-color: khaki;
